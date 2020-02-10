@@ -1,0 +1,28 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello PublicController!{% endblock %}
+
+{% block stylesheets %}
+    {# This part can be avoided by using the asset service that I created for twig #}
+    {{ parent() }}
+    {{ encore_entry_link_tags('home') }}
+{% endblock %}
+
+{% block body %}
+
+<div class="example-wrapper">
+    <h1>Hello {{ controller_name }}! ✅</h1>
+    <img src="{{ asset('build/images/bg.jpg') }}" alt="background" width="200px">
+    <br>This friendly message is coming from:
+    <ul>
+        <li>Your controller at <code><a href="{{ 'D:/xampp/htdocs/symfony-webpack/src/Controller/PublicController.php'|file_link(0) }}">src/Controller/PublicController.php</a></code></li>
+        <li>Your template at <code><a href="{{ 'D:/xampp/htdocs/symfony-webpack/templates/public/index.html.twig'|file_link(0) }}">templates/public/index.html.twig</a></code></li>
+    </ul>
+</div>
+{% endblock %}
+
+{% block javascripts %}
+    {# This part can be avoided by using the asset service that I created for twig #}
+    {{ parent() }}
+    {{ encore_entry_script_tags('home') }}
+{% endblock %}

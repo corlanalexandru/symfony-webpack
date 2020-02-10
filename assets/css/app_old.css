@@ -1,0 +1,20 @@
+/**IMPORT BOOTSTRAP IN CSS**/
+
+@import '~bootstrap'; /**This may not work**/
+/*@import '~bootstrap/dist/css/bootstrap.css';*/
+
+/**IMPORT BOOTSTRAP IN CSS**/
+
+/**IMPORT FONT-AWESOME IN CSS**/
+
+@import '~font-awesome'; /**This may not work**/
+/*@import '~font-awesome/dist/css/font-awesome.css';*/
+
+/**IMPORT FONT-AWESOME IN CSS**/
+
+body {
+    background-color: red;
+}
+p {
+    color: #000;
+}

@@ -1,0 +1,29 @@
+@import './helper/variables';
+
+/**IMPORT BOOTSTRAP IN CSS**/
+@import '~bootstrap'; /**This may not work**/
+/*@import '~bootstrap/dist/css/bootstrap.css';*/
+/**IMPORT BOOTSTRAP IN CSS**/
+
+/**IMPORT FONT-AWESOME IN CSS**/
+@import '~font-awesome'; /**This may not work**/
+/*@import '~font-awesome/dist/css/font-awesome.css';*/
+/**IMPORT FONT-AWESOME IN CSS**/
+
+/**IMPORT CUSTOM SCSS FILES**/
+@import './layout/header';
+@import './layout/footer';
+/**IMPORT CUSTOM SCSS FILES**/
+
+
+/** THE OLD WAY CSS
+body {
+    background-color: red;
+}
+p {
+    color: $black;
+}
+**/
+//GLOBAL CSS
+.example-wrapper { margin: 1em auto; max-width: 800px; width: 95%; font: 18px/1.5 sans-serif; }
+.example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
