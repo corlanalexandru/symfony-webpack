@@ -2,7 +2,7 @@
 
 **Install dependencies <br>**
 
-`composer install`
+`composer install --ignore-platform-reqs`
 
 **Install symfony/webpack-encore-bundle**
 
