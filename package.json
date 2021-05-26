@@ -3,7 +3,7 @@
         "@symfony/webpack-encore": "^0.28.2",
         "autoprefixer": "^9.7.4",
         "bootstrap": "^4.4.1",
-        "browserslist": "^4.8.6",
+        "browserslist": "^4.16.5",
         "core-js": "^3.0.0",
         "font-awesome": "^4.7.0",
         "jquery": "^3.4.1",
